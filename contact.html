@@ -16,37 +16,42 @@
         <div class="heading">
             Louise Hayes
         </div>
-        <div class="header-menu">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
+        <nav class="header-menu">
+            <a class="menu" href="index.html">About</a>
+            <a class="menu" href="portfolio.html">Portfolio</a>
+            <a class="lastone" href="contact.html">Contact</a>
+        </nav>
     </header>
 
     <section id="main">
-        <h1>Contact Me</h1>
-        <form>
+        <h1>Contact</h1>
+
+        <form class="forminput" action="mailto:louise@deewhy.ie" method="post" enctype="text/plain">
             First name:<br>
             <input type="text" Name="name"><br> Last name:<br>
             <input type="text" Email="email"><br> Message
             <br>
-            <input type="text" Message="message">
+            <textarea input class=large name="Message"></textarea><br><br>
+            <input class="submit" type="submit" value="Submit" />
+
+
+
 
         </form>ˇ
 
     </section>
 
 
-    <nav id="nav">
+    <div id="sidebar">
         <h2>Connect with Me</h2>
-        <div id="icons">
-            <a class="icon1" href="mailto://louise@deewhy.ie"> <img src = "assets/images/caticon.jpg"/> </a>
-            <a class="icon2" href="https://www.linkedin.com/in/louise-fitzpatrick-25304833/"> <img src = "assets/images/linkdnicon.jpg"/> </a>
-            <a class="icon3" href="https://mobile.twitter.com/home"> <img src = "assets/images/randomicon.jpg"/> </a>
-        </div>
-    </nav>
+
+        <a class="icon1" href="mailto://louise@deewhy.ie"> <img class="imgclass" src = "assets/images/caticon.jpg"/> </a>
+        <a class="icon2" href="https://www.linkedin.com/in/louise-fitzpatrick-25304833/"> <img class="imgclass" src = "assets/images/linkdnicon.jpg"/> </a>
+        <a class="icon3" href="https://mobile.twitter.com/home"> <img class="imgclass" src = "assets/images/randomicon.jpg"/> </a>
+
+    </div>
     <footer>
-        <p>copyright 2017 Louise Hayes</p>
+        &copy;copyright 2017 Louise Hayes
     </footer>
 </body>
 
